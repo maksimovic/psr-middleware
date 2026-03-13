@@ -1,10 +1,10 @@
 {
-    "name": "chadicus/psr-middleware",
+    "name": "maksimovic/psr-middleware",
     "description": "Foundational interface for PSR-7 middleware",
     "keywords": ["psr", "middleware"],
     "license": "MIT",
     "require": {
-        "php": "^5.6 || ^7.0 || ^8.0",
+        "php": "^8.1",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
@@ -14,6 +14,7 @@
         "psr-4": {"Chadicus\\Psr\\Middleware\\" : "src"}
     },
     "scripts": {
-        "lint": "vendor/bin/phpcs"
+        "lint": "vendor/bin/phpcs",
+        "test:coverage": "phpunit --coverage-text --coverage-html build/coverage --coverage-clover build/logs/clover.xml"
     }
 }
