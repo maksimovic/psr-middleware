@@ -1,33 +1,20 @@
-# Chadicus\Psr\Middlware
+# Chadicus\Psr\Middleware
 
-[![Latest Stable Version](https://poser.pugx.org/chadicus/psr-middleware/v/stable)](https://packagist.org/packages/chadicus/psr-middleware)
-[![Latest Unstable Version](https://poser.pugx.org/chadicus/psr-middleware/v/unstable)](https://packagist.org/packages/chadicus/psr-middleware)
-[![License](https://poser.pugx.org/chadicus/psr-middleware/license)](https://packagist.org/packages/chadicus/psr-middleware)
-
-[![Total Downloads](https://poser.pugx.org/chadicus/psr-middleware/downloads)](https://packagist.org/packages/chadicus/psr-middleware)
-[![Daily Downloads](https://poser.pugx.org/chadicus/psr-middleware/d/daily)](https://packagist.org/packages/chadicus/psr-middleware)
-[![Monthly Downloads](https://poser.pugx.org/chadicus/psr-middleware/d/monthly)](https://packagist.org/packages/chadicus/psr-middleware)
+> **Fork Notice:** This is a maintained fork of the abandoned [`chadicus/psr-middleware`](https://github.com/chadicus/psr-middleware) package. Updated for PHP 8.1+.
 
 Foundational interface for PSR-7 compliant middleware.
 
 ## Requirements
 
-Chadicus\Psr\Middleware requires PHP 5.6 (or later).
+PHP 8.1 or later.
 
-##Composer
-To add the library as a local, per-project dependency use [Composer](http://getcomposer.org)! Simply add a dependency on
-`chadicus/psr-middleware` to your project's `composer.json` file such as:
+## Composer
 
-```json
-{
-    "require": {
-        "chadicus/psr-middleware": "^1.0"
-    }
-}
+```sh
+composer require maksimovic/psr-middleware
 ```
 
-##Contact
-Developers may be contacted at:
+## Contact
 
- * [Pull Requests](https://github.com/chadicus/psr-middleware/pulls)
- * [Issues](https://github.com/chadicus/psr-middleware/issues)
+* [Pull Requests](https://github.com/maksimovic/psr-middleware/pulls)
+* [Issues](https://github.com/maksimovic/psr-middleware/issues)
